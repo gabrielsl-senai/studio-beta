@@ -1,0 +1,54 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 72px 24px;
+  background-color: var(--cor-fundo-suave);
+}
+.hero h1 {
+  font-size: 36px;
+  font-weight: 200;
+  line-height: 1.2;
+  max-width: 14ch;
+}
+.hero p {
+  color: var(--cor-texto-suave);
+  max-width: 46ch;
+}
+.acoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+.btn {
+  border: 1px var(--cor-destaque);
+  border-radius: var(--raio);
+  padding: 8px 18px;
+  font-size: 16px;
+}
+.botao-cheio {
+  background-color: var(--cor-destaque);
+  color: #ffffff;
+}
+
+.botao-vazio {
+  background-color: transparent;
+  color: #e300b2;
+}
+.card {
+  background-color: var(--cor-fundo);
+  border-radius: var(--raio);
+  padding: 24px;
+}
+.card h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+card p {
+  font-size: 14px;
+  color: var(--cor-texto-suaveS);
+}
